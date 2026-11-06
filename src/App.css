@@ -1,0 +1,145 @@
+.navbar {
+    background-color: #111827;
+    border-bottom: 1px solid #334155;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h3 {
+    color: #a78bfa;
+    margin: 0;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #a78bfa;
+}
+
+.profile-card,
+.page {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    border-radius: 15px;
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.welcome {
+    color: #a78bfa;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.profile-card h1 {
+    color: #c4b5fd;
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.profile-card h4 {
+    color: #94a3b8;
+}
+
+.profile-card h3,
+.page h1 {
+    color: #a78bfa;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.page h1 {
+    margin-top: 0;
+}
+
+.profile-card p,
+.page p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+.line {
+    height: 1px;
+    background-color: #475569;
+    margin: 25px 0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    background-color: #312e81;
+    color: #ddd6fe;
+    padding: 9px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project-card {
+    background-color: #273449;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #475569;
+}
+
+.project-card h3 {
+    color: #c4b5fd;
+}
+
+footer {
+    background-color: #111827;
+    color: #94a3b8;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    border-top: 1px solid #334155;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .profile-card,
+    .page {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    .profile-card h1 {
+        font-size: 27px;
+    }
+}
